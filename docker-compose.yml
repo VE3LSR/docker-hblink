@@ -6,6 +6,6 @@ services:
     ports:
       - 62031:62031/udp
     volumes:
-      - [LOCALDIR]/hblink.cfg:/opt/HBlink/hblink.cfg 
-      - [LOCALDIR]/hb_routing_rules.py:/opt/HBlink/hb_routing_rules.py
-      - [LOCALDIR]/hb_confbridge_rules.py:/opt/HBlink/hb_confbridge_rules.py 
+      - /srv/dmr/hblink.cfg:/opt/HBlink/hblink.cfg 
+      - /srv/dmr/hb_routing_rules.py:/opt/HBlink/hb_routing_rules.py
+      - /srv/dmr/hb_confbridge_rules.py:/opt/HBlink/hb_confbridge_rules.py 
