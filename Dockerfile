@@ -15,4 +15,5 @@ RUN pip install /tmp/dmr_utils*
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ./hblink.py
+# CMD ./hblink.py
+CMD python ./HB_Bridge.py
