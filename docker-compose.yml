@@ -1,7 +1,7 @@
 version: "3"
 services:
   hblink:
-    image: hblink
+    image: ve3lsr/hblink
     restart: always
     ports:
       - 62031:62031/udp

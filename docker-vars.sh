@@ -1,5 +1,5 @@
 #!/bin/bash
 
 VERSION=latest
-APP=hblink
+APP=ve3lsr/hblink
 NAME=$APP:$VERSION
