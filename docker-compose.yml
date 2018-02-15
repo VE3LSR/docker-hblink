@@ -7,5 +7,6 @@ services:
       - 62031:62031/udp
     volumes:
       - /srv/dmr/hblink.cfg:/opt/HBlink/hblink.cfg
+      - /srv/dmr/HB_Bridge.cfg:/opt/HBlink/HB_Bridge.cfg
       - /srv/dmr/hb_routing_rules.py:/opt/HBlink/hb_routing_rules.py
       - /srv/dmr/hb_confbridge_rules.py:/opt/HBlink/hb_confbridge_rules.py
